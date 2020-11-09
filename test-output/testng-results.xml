@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-08T21:56:27 EST" name="Default suite" finished-at="2020-11-08T21:57:37 EST" duration-ms="69579">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-11-08T21:56:27 EST" name="Default test" finished-at="2020-11-08T21:57:37 EST" duration-ms="69579">
+      <class name="com.weightwatchers.test.testRunner.TestRunner">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" started-at="2020-11-08T21:56:27 EST" name="Setup" finished-at="2020-11-08T21:56:35 EST" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" started-at="2020-11-08T21:56:35 EST" name="setUpClass" finished-at="2020-11-08T21:56:36 EST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" started-at="2020-11-08T21:56:36 EST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-08T21:57:34 EST" duration-ms="57498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Weight Watchers Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" started-at="2020-11-08T21:57:34 EST" name="tearDownClass" finished-at="2020-11-08T21:57:34 EST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.weightwatchers.test.testRunner.TestRunner@1534f01b]" started-at="2020-11-08T21:57:34 EST" name="TearDown" finished-at="2020-11-08T21:57:37 EST" duration-ms="2918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.weightwatchers.test.testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
